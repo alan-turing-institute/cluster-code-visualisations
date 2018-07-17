@@ -67,3 +67,7 @@ cp ~/cluster-code-results/data_diseases/* diseases/data
 ``` 
 
 Rerun the notebook.
+
+### Notes
+
+The Bokeh code to visualise interactive figures does not render them within the Jupyter notebook when run in Urika. However, the HTML visualisations are created in the `diseases/html` directory. You can copy these to another computer and open them within a web browser.
